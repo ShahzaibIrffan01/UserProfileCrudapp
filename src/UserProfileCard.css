@@ -1,0 +1,225 @@
+body{
+  background-color: teal;
+}
+.cardcontainer{
+  height: 100vh;
+  width: 100vw;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.inputs{
+  max-width: 100%;
+  height: 100%;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+   line-height: 20px; 
+}
+.output{
+  max-width: 100%;
+  height: 100%;
+  margin-top: 8px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  /* overflow: hidden; */
+
+}
+.btn1{
+  height: 20%;
+  width: 50%;
+  background-color: #e88102 ;
+  border: 0;
+  font-size: 1.1rem;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 8px;
+  
+  
+}
+.btn{
+  height: 20%;
+  width: 40%;
+  background-color: #e88102 ;
+  border: 0;
+  font-size: 1.1rem;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  
+  
+}
+ .card{
+  height: 100vh;
+  width: 100%;
+
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding: 8px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.card ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+.cardbak{
+  background-color: rgb(253, 255, 255);
+  margin: 10px;
+  width: 50%;
+}
+.name{
+  height: 35%;
+  width:100%;
+}
+.age{
+
+  height: 35%;
+  width:100%;
+ }
+.image{
+  
+  height: 35%;
+  width:100%;
+
+}
+.email{
+  height: 35%;
+  width:100%;
+}
+
+.image1{
+  
+  height: 10%;
+  width:100%;
+}
+.cardcontent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  line-height: 3px;
+
+}
+
+ /* .card{
+  height: 60vh;
+  width: 26%;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding: 8px;
+} */
+/* .Image{
+  height: 45%;
+  width: 100%;
+  background-color: transparent;
+ 
+}
+.Info{
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+
+}
+.duration{
+  height: 90%;
+  width: 40%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.date{
+  height: 90%;
+  width: 40%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+.Details{
+  height: 35%;
+  width: 100%;
+  background-color: transparent;
+}
+.heading{
+  height: 60%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+
+}
+.description{
+  height: 11%;
+  width: 100%;
+  background-color: transparent;
+  font-size: 1rem;
+  color: gray;
+}
+
+.SellPoint{
+  height: 12%;
+  width: 100%;
+  background-color: transparent;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buy{
+  height: 100%;
+  width: 40%;
+  background-color: transparent;
+}
+
+.Price{
+  height: 100%;
+  width: 40%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color:#e88102 ;
+}
+.buybutton{
+  height: 80%;
+  width: 100%;
+  background-color: #e88102 ;
+  border: 0;
+  font-size: 1.1rem;
+  color: whitesmoke;
+  border-radius: 20px;
+} */ 
