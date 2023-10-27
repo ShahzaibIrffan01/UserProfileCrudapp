@@ -1,6 +1,6 @@
 // import './App.css';
 import React from 'react';
-import UserProfileCard from './UserProfileCard';
+import UserProfileCard from './Components/UserProfileCard';
 
 
 function App() {
